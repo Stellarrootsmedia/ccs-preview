@@ -1,0 +1,248 @@
+{
+  "business": {
+    "name": "Climate Control Solutions",
+    "short": "CC Solutions",
+    "domain": "https://www.ccsolutionsatx.com",
+    "phone": "(512) 960-5282",
+    "phone_tel": "+15129605282",
+    "street": "342 Jefferson Dr",
+    "city": "Kyle",
+    "region": "TX",
+    "zip": "78640",
+    "license": "TACLB77818E",
+    "owner": "Marcus",
+    "rating": "4.9",
+    "review_count": "662",
+    "rating_checked": "October 2026",
+    "google_reviews_url": "https://www.google.com/maps?cid=3411223511066821695",
+    "google_write_review_url": "https://search.google.com/local/writereview?placeid=ChIJuVO8gbpWW4YRhnMEvSaCgHQ",
+    "facebook": "https://www.facebook.com/ccsolutions17/",
+    "instagram": "https://www.instagram.com/climatecontrolsolutions_atx/",
+    "financing_url": "https://www.ftl.finance/C18030",
+    "booking_url": "https://book.housecallpro.com/book/Climate-Control-Solutions/3ab20efed2974c9b8daffc812da8843f?v2=true",
+    "brands": ["Carrier", "Bryant", "Lennox", "Goodman", "American Standard", "York"]
+  },
+  "tracking": {
+    "gtm": "GTM-TQTL4GXF",
+    "meta_pixel": "707566566900228"
+  },
+  "reviews": [
+    {"name": "Angella J.", "text": "They are professional, take their time and give an honest evaluation and what I appreciate most, they don't try to upsell me on things my unit does not need. I highly recommend them!", "tag": "Honest advice"},
+    {"name": "Jason P.", "text": "Oscar gave me lots of feedback about my a/c about how strong it is doing and that it's not dying as I thought it was. Didn't try to scare me into buying a new one.", "tag": "Repair, not replace"},
+    {"name": "Brenda H.", "text": "We were scheduled for Monday to have 1 of our 2 air conditioners worked on. On Sunday the other unit quit cooling. They were great to adjust my scheduled time to work on both. Really great customer service.", "tag": "AC repair"},
+    {"name": "Phans", "text": "Excellent customer service from the call to sending a technician immediately. Oscar arrived on time, was courteous and very helpful. I would highly recommend this company!", "tag": "Fast response"},
+    {"name": "Amy C.", "text": "Marcus - thank you!!! We were in a major bind today and you came through with kindness and professionalism. Really appreciate you getting our AC back up and running.", "tag": "Emergency service"},
+    {"name": "Casey Y.", "text": "They were quick, reliable, on time. Good communication. I was very pleased with the level of service. Very professional. Would use again!", "tag": "On time"},
+    {"name": "Amy H.", "text": "Oscar was very helpful in answering all my questions and gave very helpful info on maintenance and upkeep. On a cold and rainy day, he went above and beyond to provide great service.", "tag": "Heating service"},
+    {"name": "Alline M.", "text": "David is great, he has been coming out twice a year to make sure everything runs good for us in the summer and winter! Prices are very reasonable and always on time.", "tag": "Maintenance"}
+  ],
+  "faq": [
+    {"q": "My AC isn't blowing cold air. What should I check first?", "a": "Make sure the thermostat is set to Cool and the set temperature is below room temperature, check that the air filter isn't clogged, and confirm supply and return vents aren't blocked. Check the breaker for the outdoor unit too. If it still isn't cooling, turn the system off so a frozen coil or failing part doesn't get worse, then call us at (512) 960-5282.", "home": true},
+    {"q": "Should I repair or replace my air conditioner?", "a": "Repair usually makes sense when the system is fairly young and the problem is a single part. Replacement is worth pricing out when the unit is around 15 years old, your energy bills keep climbing, it needs repairs several times a year, or one repair approaches the cost of a new system. We'll tell you honestly which side of that line you're on. Many of our reviews mention we didn't push a replacement that wasn't needed.", "home": true},
+    {"q": "Do you offer emergency HVAC service?", "a": "Yes. Emergency heating and air conditioning service is available 24/7. Call (512) 960-5282, day or night.", "home": true},
+    {"q": "What areas do you serve?", "a": "We're based at 342 Jefferson Dr in Kyle and serve Kyle, Buda, Austin, San Marcos, Wimberley, Woodcreek, Dripping Springs, Driftwood, Mountain City and Hays.", "home": true},
+    {"q": "Which brands do you work on?", "a": "All major brands and models, including Carrier, Bryant, Lennox, Goodman, American Standard and York. Our recent installs include Bryant, Carrier and Goodman systems.", "home": true},
+    {"q": "How often should my AC and heater be serviced?", "a": "At least once a year for each. Ideally that means an AC tune-up in spring before the Central Texas heat and a heating check in fall before the first cold front. Our Gold Service Plan covers both visits.", "home": true},
+    {"q": "Do you offer financing on a new system?", "a": "Yes. Financing is available through FTL Finance, and you can apply online. Ask us about it when we quote your new system."},
+    {"q": "Can you help with allergies or dusty air in my home?", "a": "Yes. We install whole-home air quality products such as upgraded filtration and air purifiers that capture dust, pollen, pet dander and mold spores. We'll look at your system and recommend what fits your home."},
+    {"q": "Are you licensed and insured?", "a": "Yes. Climate Control Solutions holds Texas air conditioning contractor license TACLB77818E, and our team is licensed, insured and trained."},
+    {"q": "How do I book an appointment?", "a": "Call (512) 960-5282 or use the Book online button to pick a time. If you'd rather talk first, call and we'll answer your questions before you schedule."}
+  ],
+  "services": [
+    {
+      "key": "ac-repair", "path": "air-conditioning/ac-repair", "group": "cooling", "icon": "wrench",
+      "name": "AC Repair", "card": "Warm air, strange noises, short-cycling or no power. We find the real cause and fix it right.",
+      "title": "AC Repair in Kyle, Buda & Austin, TX | Climate Control",
+      "description": "Fast, honest AC repair in Kyle, Buda, San Marcos and South Austin. All brands, 24/7 emergency service. Call Climate Control Solutions at (512) 960-5282.",
+      "h1": "AC repair in Kyle, Buda & South Austin",
+      "lede": "When your air conditioner quits in a Central Texas summer, you need someone who shows up on time, finds the real problem and fixes it without upselling you. That's how we've built 662 Google reviews.",
+      "image": "projects/hvac-replacement-austin-tx-1",
+      "signs_title": "Signs your AC needs repair",
+      "signs": [
+        ["It's blowing warm or weak air", "A failing capacitor, low refrigerant, a dirty coil or a blocked filter can all cut cooling. We test each part instead of guessing."],
+        ["Grinding, banging or screeching", "A low steady hum is normal. Metal-on-metal sounds usually mean a motor, fan or compressor problem that gets more expensive if it keeps running."],
+        ["Burning or musty smells", "A burning smell can mean overheating electrical parts. Shut the system off and call. A musty smell often points to moisture or mold in the system."],
+        ["Short-cycling", "If the system turns on and off before finishing a cycle, it wastes power and wears out parts. Causes range from thermostat issues to an oversized or overheating unit."],
+        ["The house feels sticky", "Your AC removes humidity as well as heat. A muggy house with the AC running is a sign something isn't working right."],
+        ["Water around the indoor unit", "A clogged condensate drain or frozen coil can leak into ceilings and closets. Catching it early prevents water damage."]
+      ],
+      "body_title": "How an AC repair visit works",
+      "body": [
+        "We diagnose the whole system, not just the symptom. We check electrical parts, refrigerant levels, airflow, coils and drains so the same problem doesn't come back next week.",
+        "You'll get a clear explanation of what's wrong and your options before any work starts. If a repair is the smart call, we'll do the repair. If your system is near the end of its life, we'll tell you straight and help you compare.",
+        "We repair every major brand and model, and we keep the visit as quick and quiet as possible so you can get back to your day."
+      ],
+      "faq": [0, 1, 2]
+    },
+    {
+      "key": "ac-replacement", "path": "air-conditioning/ac-replacement", "group": "cooling", "icon": "unit",
+      "name": "AC Replacement", "card": "New, efficient systems from Carrier, Bryant, Goodman and more, sized for your home and installed clean.",
+      "title": "AC Replacement & Installation in Kyle & Austin, TX",
+      "description": "New air conditioner installation in Kyle, Buda and South Austin. Honest recommendations, clean installs, financing available. Call (512) 960-5282.",
+      "h1": "AC replacement & new system installation",
+      "lede": "A new air conditioner is a big decision. We'll help you decide whether it's actually time, size a system that fits your home and budget, and install it cleanly so it runs the way it should for years.",
+      "image": "site/ac-replacement",
+      "signs_title": "When replacement makes sense",
+      "signs": [
+        ["Your system is around 15 years old", "Most AC units are built to last about 15 years. Past that point, efficiency drops and repairs come more often."],
+        ["Energy bills keep climbing", "Older and worn systems burn more electricity for the same cooling. A modern high-efficiency system can cut that waste."],
+        ["Repairs keep stacking up", "Several breakdowns a year, or one repair that approaches the cost of a new unit, usually means replacement is the better investment."],
+        ["Uneven or weak cooling", "If some rooms never get comfortable even after repairs, your system may be undersized or worn out."]
+      ],
+      "body_title": "What to expect from a replacement",
+      "body": [
+        "We start with an honest look at your current system. If a repair will get you more good years, we'll tell you. Our reviews say it often: we don't push replacements that aren't needed.",
+        "If it is time, we'll recommend equipment sized for your home. Our recent installs include Bryant, Carrier and Goodman heat pumps, gas systems, air handlers and ductless units.",
+        "Installation is done carefully, with drop cloths down and the old equipment hauled away. Financing is available through FTL Finance, and our Gold Service Plan keeps your new system tuned up."
+      ],
+      "faq": [1, 6, 4]
+    },
+    {
+      "key": "ac-maintenance", "path": "air-conditioning/ac-maintenance", "group": "cooling", "icon": "gauge",
+      "name": "AC Maintenance", "card": "A spring tune-up that catches small problems before they turn into a 100° breakdown.",
+      "title": "AC Maintenance & Tune-Ups in Kyle & Austin, TX",
+      "description": "AC tune-ups in Kyle, Buda, San Marcos and South Austin. Clean coils, refrigerant check, electrical and drain safety checks. Call (512) 960-5282.",
+      "h1": "AC maintenance & tune-ups",
+      "lede": "Central Texas summers push air conditioners hard. A yearly tune-up keeps your system efficient, catches worn parts early and lowers the odds of a breakdown on the hottest day of the year.",
+      "image": "projects/heat-pump-replacement-kyle-tx-1",
+      "signs_title": "What a tune-up covers",
+      "signs": [
+        ["Inspection and cleaning", "We inspect the system and clear built-up dirt and debris from the coils so it can release heat efficiently."],
+        ["Refrigerant and performance check", "We check refrigerant levels and test how well the system is actually cooling."],
+        ["Thermostat and controls", "We calibrate the thermostat and confirm the controls are working correctly."],
+        ["Electrical, drain and condenser safety", "We check connections, capacitors and the condensate drain to prevent hard starts, leaks and fire hazards."]
+      ],
+      "body_title": "Why yearly maintenance pays off",
+      "body": [
+        "Spring is the best time for AC maintenance, before the long hot season starts. Small issues like a weak capacitor or a dirty coil are cheap to fix in April and expensive to fix in August.",
+        "Regular maintenance helps your system run more efficiently, last longer and keep your warranty in good standing.",
+        "Want it handled automatically? Our Gold Service Plan includes two tune-ups a year, priority scheduling and 10% off repairs."
+      ],
+      "faq": [5, 0, 2]
+    },
+    {
+      "key": "heating-repair", "path": "heating/heating-repair", "group": "heating", "icon": "flame",
+      "name": "Heating Repair", "card": "Furnace or heat pump not keeping up? We repair all brands, including emergency calls on cold nights.",
+      "title": "Heating & Furnace Repair in Kyle & Austin, TX",
+      "description": "Furnace and heat pump repair in Kyle, Buda, San Marcos and South Austin. All brands, 24/7 emergency service. Call (512) 960-5282.",
+      "h1": "Heating repair for furnaces & heat pumps",
+      "lede": "Texas cold snaps don't last long, but they hit hard. When your furnace or heat pump stops keeping up, we'll diagnose it fast and get your home warm again.",
+      "image": "projects/carrier-hvac-installation-kyle-tx-1",
+      "signs_title": "Signs your heater needs repair",
+      "signs": [
+        ["Cold or lukewarm air", "A bad igniter, a heat pump stuck in the wrong mode or a failing part can all keep your system from heating."],
+        ["It won't turn on or keeps shutting off", "Safety switches, thermostats, flame sensors and wiring problems can cause no-starts and short-cycling."],
+        ["Unusual noises or smells", "Banging, squealing or a burning smell that lasts beyond the first run of the season should be checked."],
+        ["Higher bills with less comfort", "A system that runs constantly but can't keep up is wasting energy and wearing itself out."]
+      ],
+      "body_title": "How we handle heating repairs",
+      "body": [
+        "We test the whole heating system, including ignition, burners, safety controls, airflow and the thermostat, so we fix the cause and not just the symptom.",
+        "For gas furnaces, we check for safe operation, including a carbon monoxide safety test. For heat pumps, we check refrigerant, the reversing valve and defrost controls.",
+        "Emergency service is available 24/7. If your heat goes out on a cold night, call (512) 960-5282."
+      ],
+      "faq": [2, 3, 4]
+    },
+    {
+      "key": "heating-replacement", "path": "heating/heating-replacement", "group": "heating", "icon": "unit",
+      "name": "Heating Replacement", "card": "New furnaces and heat pumps sized for your home, with financing available.",
+      "title": "Furnace & Heat Pump Replacement in Kyle & Austin, TX",
+      "description": "New furnace and heat pump installation in Kyle, Buda, Wimberley and South Austin. Honest recommendations, clean installs, financing available.",
+      "h1": "Furnace & heat pump replacement",
+      "lede": "If your heating system is old, unsafe or costing more to repair than it's worth, we'll help you choose the right replacement and install it cleanly.",
+      "image": "projects/hvac-upgrade-austin-tx-1",
+      "signs_title": "When it's time to replace your heater",
+      "signs": [
+        ["Age", "Furnaces and heat pumps that are 15 years or older lose efficiency and parts get harder to find."],
+        ["Frequent or costly repairs", "If your heater needs repairs every season, or one repair is a large share of the cost of a new system, replacement is usually the better value."],
+        ["Safety concerns", "Cracked heat exchangers and failing gas parts are safety issues. We'll show you what we find."],
+        ["Uneven heat", "Cold rooms and constant running can mean your system is undersized or worn out."]
+      ],
+      "body_title": "Our replacement process",
+      "body": [
+        "We'll compare repair and replacement honestly. If a new system makes sense, we'll recommend a gas furnace, heat pump or air handler that fits your home and budget.",
+        "We've installed Bryant, Carrier and Goodman heat pumps and gas systems across Kyle, Wimberley, Austin and Dripping Springs. You can see several of them on our projects page.",
+        "Financing is available through FTL Finance, and the Gold Service Plan keeps your new system maintained."
+      ],
+      "faq": [6, 4, 3]
+    },
+    {
+      "key": "heating-maintenance", "path": "heating/heating-maintenance", "group": "heating", "icon": "gauge",
+      "name": "Heating Maintenance", "card": "A fall safety and performance check so your heat works on the first cold night.",
+      "title": "Heating Maintenance & Furnace Tune-Ups in Kyle, TX",
+      "description": "Fall furnace and heat pump tune-ups in Kyle, Buda, San Marcos and South Austin, including a carbon monoxide safety test. Call (512) 960-5282.",
+      "h1": "Heating maintenance & safety checks",
+      "lede": "Your heater sits idle most of the year, and dust and wear build up while it waits. A fall check makes sure it's safe and ready before the first cold front.",
+      "image": "projects/hvac-replacement-austin-tx-2",
+      "signs_title": "What a heating tune-up covers",
+      "signs": [
+        ["Furnace or heat pump inspection", "We inspect the system and look for early signs of wear."],
+        ["Burner, ignition and safety controls", "We make sure your system lights reliably and shuts down safely if something goes wrong."],
+        ["Airflow and filter", "We check airflow and replace your filter if you provide one."],
+        ["Carbon monoxide safety test", "For gas systems, we test for carbon monoxide so you can run your heat with peace of mind."]
+      ],
+      "body_title": "Why a fall check matters",
+      "body": [
+        "Heating problems tend to show up on the first cold night, when everyone else is calling too. A fall tune-up gets ahead of that rush.",
+        "Maintenance keeps your system efficient, helps it last longer and is an important safety step for gas furnaces.",
+        "Our Gold Service Plan includes a fall heating visit and a spring AC visit every year."
+      ],
+      "faq": [5, 2, 3]
+    },
+    {
+      "key": "air-quality", "path": "air-quality", "group": "air", "icon": "leaf",
+      "name": "Indoor Air Quality", "card": "Filtration and air purifiers for dust, pollen, pet dander and mold spores.",
+      "title": "Indoor Air Quality in Kyle & Austin, TX | Climate Control",
+      "description": "Whole-home air filtration and air purifiers in Kyle, Buda and South Austin. Cut dust, pollen, pet dander and mold spores. Call (512) 960-5282.",
+      "h1": "Indoor air quality solutions",
+      "lede": "Central Texas is hard on allergy sufferers. Whole-home air quality products clean the air your HVAC system already moves through every room.",
+      "image": "projects/5-ton-gas-system-changeout-ausin-tx-2",
+      "signs_title": "Signs your indoor air needs help",
+      "signs": [
+        ["Allergies are worse at home", "Dust, pollen and pet dander circulating through your ducts can keep symptoms going indoors."],
+        ["Dust comes back fast", "If surfaces get dusty soon after cleaning, your filtration probably isn't keeping up."],
+        ["Musty or stale smells", "Lingering odors can point to moisture, mold or poor ventilation."],
+        ["Pets, smokers or recent remodeling", "These all add particles that standard filters miss."]
+      ],
+      "body_title": "How we improve your air",
+      "body": [
+        "We'll look at your HVAC system and your concerns, then recommend the right fit, from upgraded whole-home filtration to air purifiers that capture fine particles like mold spores and pollen.",
+        "Because these products work with your existing heating and cooling system, they clean the air throughout the house, not just one room.",
+        "Cleaner air also means a cleaner system. Less dust on coils and fans helps your equipment run more efficiently."
+      ],
+      "faq": [7, 5, 4]
+    }
+  ],
+  "towns": [
+    {"key": "kyle", "name": "Kyle", "path": "near-me/kyle-tx-air-conditioning-company", "county": "Hays County",
+     "intro": "Kyle is home. Our shop is at 342 Jefferson Dr, so homes across Kyle, from the neighborhoods off I-35 to the newer subdivisions along FM 1626 and Kohlers Crossing, are close by when you need us.",
+     "local": "Our Kyle projects include Carrier and Bryant installs, a heat pump replacement and a multi-family air handler replacement. When a system acts up, we help you decide between a smart repair and a well-timed replacement."},
+    {"key": "buda", "name": "Buda", "path": "near-me/buda-tx-air-conditioning-company", "county": "Hays County",
+     "intro": "Buda is right up I-35 from our Kyle shop, and we're in Buda homes every week for AC repair, new systems and seasonal tune-ups.",
+     "local": "From older homes near downtown Buda to newer neighborhoods off FM 967 and FM 2001, we work on every brand and model and recently completed a Bryant AC replacement here."},
+    {"key": "austin", "name": "Austin", "path": "near-me/air-conditioning-company-austin-tx", "county": "Travis County",
+     "intro": "We serve South Austin and the greater Austin area with heating and air conditioning repair, replacement and maintenance.",
+     "local": "Our Austin projects include heat pump upgrades, a 5-ton gas system change-out, full HVAC replacements and a Carrier ductless install. Austin summers are long, and a well-maintained system makes all the difference."},
+    {"key": "san-marcos", "name": "San Marcos", "path": "near-me/air-conditioning-company-san-marcos-tx", "county": "Hays County",
+     "intro": "San Marcos is just down I-35 from our Kyle shop. We help San Marcos homeowners and rental owners keep their heating and cooling running.",
+     "local": "We handle AC repair, system replacements, heating service and air quality for every brand."},
+    {"key": "wimberley", "name": "Wimberley", "path": "near-me/air-conditioning-company-wimberley-tx", "county": "Hays County",
+     "intro": "We regularly make the drive out to Wimberley for Hill Country homes that need reliable heating and cooling.",
+     "local": "Our Wimberley work includes Bryant heat pump installs, an air handler upgrade, a full HVAC install and relocating an AC unit for a homeowner."},
+    {"key": "woodcreek", "name": "Woodcreek", "path": "near-me/air-conditioning-company-woodcreek-tx", "county": "Hays County",
+     "intro": "Woodcreek sits right next to Wimberley, and we serve homes throughout the area with AC and heating repair, replacement and maintenance.",
+     "local": "We've completed several heat pump and air handler projects in the Wimberley and Woodcreek area, so we know the homes and systems out here."},
+    {"key": "dripping-springs", "name": "Dripping Springs", "path": "near-me/dripping-springs-tx-air-conditioning-company", "county": "Hays County",
+     "intro": "We serve Dripping Springs homeowners along US-290 and out into the surrounding Hill Country.",
+     "local": "Recent Dripping Springs jobs include a Carrier air handler replacement and regular HVAC maintenance visits."},
+    {"key": "driftwood", "name": "Driftwood", "path": "near-me/air-conditioning-company-driftwood-tx", "county": "Hays County",
+     "intro": "Driftwood sits between Buda and Dripping Springs, and we serve homes and properties throughout the area.",
+     "local": "Rural Hill Country properties can mean bigger homes, longer duct runs and outbuildings. We handle central systems and ductless installs for spaces like workshops and guest houses."},
+    {"key": "mountain-city", "name": "Mountain City", "path": "near-me/mountain-city-tx-air-conditioning-company", "county": "Hays County",
+     "intro": "Mountain City is just minutes from our Kyle shop, so help is close when your heating or cooling stops working.",
+     "local": "We provide AC and heating repair, new system installs and maintenance for every brand and model."},
+    {"key": "hays", "name": "Hays", "path": "near-me/hays-tx-air-conditioning-company", "county": "Hays County",
+     "intro": "We serve the City of Hays and nearby homes between Buda and Kyle.",
+     "local": "From emergency AC repair to planned replacements and seasonal tune-ups, we handle every brand and model."}
+  ]
+}

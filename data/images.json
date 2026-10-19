@@ -1,0 +1,98 @@
+{
+ "site/van": {
+  "name": "site/van",
+  "w": 1111,
+  "h": 1207,
+  "widths": [
+   480,
+   960,
+   1111
+  ]
+ },
+ "site/condenser-stone": {
+  "name": "site/condenser-stone",
+  "w": 1000,
+  "h": 1333,
+  "widths": [
+   480,
+   960,
+   1000
+  ]
+ },
+ "site/condensers": {
+  "name": "site/condensers",
+  "w": 1920,
+  "h": 1080,
+  "widths": [
+   480,
+   960,
+   1440
+  ]
+ },
+ "site/ac-replacement": {
+  "name": "site/ac-replacement",
+  "w": 1235,
+  "h": 1235,
+  "widths": [
+   480,
+   960,
+   1235
+  ]
+ },
+ "site/heating-repair": {
+  "name": "site/heating-repair",
+  "w": 425,
+  "h": 425,
+  "widths": [
+   425
+  ]
+ },
+ "site/heating-replacement": {
+  "name": "site/heating-replacement",
+  "w": 425,
+  "h": 425,
+  "widths": [
+   425
+  ]
+ },
+ "site/ac-repair": {
+  "name": "site/ac-repair",
+  "w": 300,
+  "h": 400,
+  "widths": [
+   300
+  ]
+ },
+ "site/ac-maintenance": {
+  "name": "site/ac-maintenance",
+  "w": 300,
+  "h": 400,
+  "widths": [
+   300
+  ]
+ },
+ "site/heating-maintenance": {
+  "name": "site/heating-maintenance",
+  "w": 300,
+  "h": 400,
+  "widths": [
+   300
+  ]
+ },
+ "site/air-quality": {
+  "name": "site/air-quality",
+  "w": 300,
+  "h": 400,
+  "widths": [
+   300
+  ]
+ },
+ "site/gold-plan": {
+  "name": "site/gold-plan",
+  "w": 450,
+  "h": 300,
+  "widths": [
+   450
+  ]
+ }
+}

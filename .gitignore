@@ -1,0 +1,4 @@
+.DS_Store
+_research/
+__pycache__/
+dns-snapshot*.txt
