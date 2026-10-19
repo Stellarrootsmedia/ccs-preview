@@ -15,7 +15,7 @@ OUT = ROOT / "docs"
 args = sys.argv[1:]
 LIVE = "--live" in args
 BASE = args[args.index("--base") + 1].rstrip("/") if "--base" in args else ""
-V = "12"  # cache-bust css/js; bump on every change
+V = "15"  # cache-bust css/js; bump on every change
 
 S = json.loads((ROOT / "data" / "site.json").read_text())
 PROJECTS = json.loads((ROOT / "data" / "projects.json").read_text())
@@ -228,11 +228,7 @@ def header(current):
         items.append(f'<li class="has-sub{active}"><button class="nav-top" aria-expanded="false">{esc(label)}{icon("chev", "i chev")}</button>'
                      f'<ul class="sub">{"".join(links)}</ul></li>')
     return f"""<a class="skip" href="#main">Skip to content</a>
-<div class="topbar"><div class="wrap topbar-in">
-<span class="tb-item">{icon('clock')} 24/7 emergency service</span>
-<a class="tb-item tb-rating" href="{B['google_reviews_url']}" target="_blank" rel="noopener"><span class="stars" aria-hidden="true">★★★★★</span> {B['rating']} from {B['review_count']} Google reviews</a>
-<span class="tb-item tb-lic">TX Lic. {B['license']}</span>
-</div></div>
+<a class="topbar" href="tel:{B['phone_tel']}" data-call><span class="wrap topbar-in"><span class="tb-dot" aria-hidden="true"></span><strong>24/7 Emergency<span class="lbl-lg"> Service</span></strong><span class="tb-sep" aria-hidden="true">·</span><span class="tb-call">{icon('phone')} <span class="lbl-lg">Call&nbsp;</span>{B['phone']}</span></span></a>
 <header class="site-header"><div class="wrap header-in">
 {logo()}
 <nav class="nav" id="nav" aria-label="Main">
@@ -398,29 +394,26 @@ def article_cards(arts, n=3):
 def build_home():
     faqs = [f for f in FAQ if f.get("home")]
     proof = ["Honest diagnosis. Repair when repair makes sense.", "On time, with updates on arrival.", "Owner-led and family-owned.", "Every major brand and model."]
+    options = [("wrench", "Get a repair", "AC or heat not working right", url("air-conditioning/ac-repair"), ""),
+               ("gauge", "Schedule maintenance", "Tune-ups &amp; the Gold Plan", url("air-conditioning/ac-maintenance"), ""),
+               ("unit", "New system estimate", "Replace an old AC or heater", url("air-conditioning/ac-replacement"), ""),
+               ("calendar", "Book online", "Pick a time that works", B["booking_url"], ' target="_blank" rel="noopener" data-book')]
+    opts = "".join(f'<li><a class="opt" href="{h}"{x}><span class="opt-ico">{icon(i)}</span><span class="opt-txt"><strong>{t}</strong><small>{d}</small></span>{icon("arrow", "i opt-arr")}</a></li>' for i, t, d, h, x in options)
     main = f"""<section class="hero"><div class="wrap hero-in">
 <div class="hero-text">
-<p class="eyebrow on-dark">Kyle · Buda · San Marcos · South Austin</p>
-<h1>Honest heating &amp; air conditioning, <span class="hl">fixed right the first time.</span></h1>
-<p class="lede">Family-owned and based in Kyle, Climate Control Solutions repairs, replaces and maintains every major brand of AC and heating system, with 24/7 emergency service when yours quits.</p>
-{cta_buttons()}
-<ul class="hero-paths" aria-label="Quick links">
-<li><a href="{url('air-conditioning/ac-repair')}">{icon('wrench')} Get a repair</a></li>
-<li><a href="{url('air-conditioning/ac-replacement')}">{icon('unit')} New system estimate</a></li>
-<li><a href="{url('gold-service-plan')}">{icon('gauge')} Schedule maintenance</a></li>
-</ul>
+<h1>Heating &amp; air conditioning for Kyle, Buda &amp; South Austin</h1>
+<a class="hero-rating" href="{B['google_reviews_url']}" target="_blank" rel="noopener">{stars()} <strong>{B['rating']}</strong> from {B['review_count']} Google reviews · Family-owned in Kyle</a>
+<p class="hero-ask">How can we help you?</p>
+<ul class="opts">{opts}</ul>
 </div>
 <div class="hero-media">
-{img('site/van', 'Climate Control Solutions service van parked outside a home in the Kyle area', '(max-width:900px) 92vw, 46vw', 'hero-img', eager=True)}
-<figure class="hero-quote">{stars()}<blockquote>“Honest evaluation and… they don't try to upsell me on things my unit does not need.”</blockquote><figcaption>Angella J., Google review</figcaption></figure>
+{img('site/van', 'Climate Control Solutions service van parked outside a home in the Kyle area', '(max-width:900px) 92vw, 44vw', 'hero-img', eager=True)}
 </div>
 </div></section>
 
-<section class="trust"><div class="wrap trust-in">
-{rating_badge()}
-<div class="trust-item">{icon('clock')}<span><strong>24/7</strong> emergency service</span></div>
-<div class="trust-item">{icon('home')}<span><strong>Family-owned</strong> in Kyle, TX</span></div>
-<div class="trust-item">{icon('shield')}<span><strong>Licensed &amp; insured</strong> TACLB77818E</span></div>
+<section class="emergency"><div class="wrap emergency-in">
+<div><h2>Have an emergency?</h2><p>Call for immediate service, day or night.</p></div>
+<a class="btn btn-red btn-xl" href="tel:{B['phone_tel']}" data-call>{icon('phone')} Call {B['phone']}</a>
 </div></section>
 
 <section class="section"><div class="wrap">
